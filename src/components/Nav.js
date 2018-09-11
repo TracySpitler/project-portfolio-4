@@ -7,7 +7,6 @@ class Nav extends Component {
   render() {
     return (
     <nav className="Nav-side">
-      <h3>Menu</h3>
       <NavLink to="/Home" className="Side-icon">Home</NavLink>
       <br />
       <p>
