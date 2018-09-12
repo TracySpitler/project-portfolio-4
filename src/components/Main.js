@@ -14,13 +14,12 @@ class Main extends Component {
     render() {
         return (
             <div className="Main-div">
-            <Route path="/Home" component={Home}/>
-            <Route path="/Discover" component={Discover}/>
-            <Route path="/Favorites" component={Favorites}/>
-            <Route path="/History" component={History}/>
-            <Route path="/Library" component={Library}/>
-            <Route path="/Lists" component={Lists}/>
-            <p>This is the main.js file.</p>
+                <Route path="/Home" component={Home}/>
+                <Route path="/Discover" component={Discover}/>
+                <Route path="/Favorites" component={Favorites}/>
+                <Route path="/History" component={History}/>
+                <Route path="/Library" component={Library}/>
+                <Route path="/Lists" component={Lists}/>
             </div>
         );
     }

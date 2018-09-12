@@ -1,2 +1,18 @@
 /* _typography.scss
 ================================ */
+
+@import url('https://fonts.googleapis.com/css?family=Yellowtail|Ubuntu');
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+    font-family: 'Yellowtail', sans-serif;
+    font-size: 75px;
+}
+
+span {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 60px;
+}

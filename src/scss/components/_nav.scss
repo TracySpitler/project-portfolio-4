@@ -1,0 +1,41 @@
+/* _nav.scss
+================================ */
+.SignUpIn {
+  display: flex;
+  align-items: center;
+}
+
+a, button {
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+a {
+
+    &.Active {
+        color: $blue;
+
+        &:hover {
+
+        }
+    }
+
+    &:hover {
+        border-bottom: 2px solid $blue;
+        padding-bottom: .3rem;
+    }
+
+}
+
+button {
+    width: 6rem;
+    height: 2.5rem;
+    background-color: $black;
+    border: 2px solid $blue;
+    margin-left: 1rem;
+
+    &:hover {
+        background-color: $blue;
+    }
+}

@@ -1,0 +1,32 @@
+/* _header.scss
+================================ */
+
+.Header {
+    background-color: $black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 3rem 0 3rem;
+
+    h1 {
+        color: $blue;
+    }
+
+    span {
+        color: white;
+    }
+}
+
+.Nav-Header {
+    background-color: $black;
+    padding: 1rem 0 1rem 3rem
+}
+
+.Links {
+    display: flex;
+    justify-content: flex-start;
+
+    li {
+        padding-right: 1rem;
+    }
+}

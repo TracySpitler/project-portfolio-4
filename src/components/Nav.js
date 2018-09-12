@@ -4,25 +4,39 @@ import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom'
 
 class Nav extends Component {
-  render() {
-    return (
-    <nav className="Nav-side">
-      <NavLink to="/Home" className="Side-icon">Home</NavLink>
-      <br />
-      <p>
-      <NavLink to="/Discover" className="Side-icon">Discover</NavLink>
-      -
-      <NavLink to="/Library" className="Side-icon">Library</NavLink>
-      -
-      <NavLink to="/Lists" className="Side-icon">My Lists</NavLink>
-      -
-      <NavLink to="/History" className="Side-icon">History</NavLink>
-      -
-      <NavLink to="/Favorites" className="Side-icon">Favorites</NavLink>
-      </p>
-    </nav>
-    );
-  }
+    render() {
+        return (
+            <nav className="Nav-Header">
+            <ul className="Links">
+                <li>
+                <NavLink
+                    to="/Discover"
+                    activeClassName="Active">Discover</NavLink>
+                </li>
+                <li>
+                <NavLink
+                    to="/Library"
+                    activeClassName="Active">Library</NavLink>
+                </li>
+                <li>
+                <NavLink
+                    to="/Lists"
+                    activeClassName="Active">My Lists</NavLink>
+                </li>
+                <li>
+                <NavLink
+                    to="/History"
+                    activeClassName="Active">History</NavLink>
+                </li>
+                <li>
+                <NavLink
+                    to="/Favorites"
+                    activeClassName="Active">Favorites</NavLink>
+                </li>
+            </ul>
+            </nav>
+        );
+    }
 }
 
 export default Nav

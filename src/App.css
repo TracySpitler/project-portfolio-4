@@ -2,8 +2,142 @@
 ================================ */
 /* _variables.scss
 ================================ */
+/* CSS RESET
+==================================================
+================================================== */
+@import url("https://fonts.googleapis.com/css?family=Yellowtail|Ubuntu");
+html, body, div, main, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, button, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, input, textarea,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video,
+::before, ::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+/* HTML5 - Older browser support
+================================================== */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+/* BODY
+================================================== */
+body {
+  line-height: 1; }
+
+/* LISTS - Clear bullets
+================================================== */
+ol, ul {
+  list-style: none; }
+
+/* QUOTES
+================================================== */
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+/* TABLES
+================================================== */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
 /* _base.scss
 ================================ */
 body {
-  text-align: center;
-  background-color: #3FCEF5; }
+  text-align: center; }
+
+/* _nav.scss
+================================ */
+.SignUpIn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+a, button {
+  color: white;
+  cursor: pointer;
+  text-transform: uppercase; }
+
+a.Active {
+  color: #3FCEF5; }
+
+a:hover {
+  border-bottom: 2px solid #3FCEF5;
+  padding-bottom: .3rem; }
+
+button {
+  width: 6rem;
+  height: 2.5rem;
+  background-color: #262626;
+  border: 2px solid #3FCEF5;
+  margin-left: 1rem; }
+  button:hover {
+    background-color: #3FCEF5; }
+
+/* _typography.scss
+================================ */
+body {
+  font-family: 'Ubuntu', sans-serif; }
+
+h1 {
+  font-family: 'Yellowtail', sans-serif;
+  font-size: 75px; }
+
+span {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 60px; }
+
+/* _header.scss
+================================ */
+.Header {
+  background-color: #262626;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2rem 3rem 0 3rem; }
+  .Header h1 {
+    color: #3FCEF5; }
+  .Header span {
+    color: white; }
+
+.Nav-Header {
+  background-color: #262626;
+  padding: 1rem 0 1rem 3rem; }
+
+.Links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start; }
+  .Links li {
+    padding-right: 1rem; }
