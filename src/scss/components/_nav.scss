@@ -1,6 +1,6 @@
 /* _nav.scss
 ================================ */
-.SignUpIn {
+.sign-up-in {
   display: flex;
   align-items: center;
 }
@@ -13,11 +13,11 @@ a, button {
 
 a {
 
-    &.Active {
+    &.current {
         color: $blue;
 
         &:hover {
-
+            border: none;
         }
     }
 

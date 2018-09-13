@@ -7,11 +7,11 @@ class Header extends Component {
   render() {
     return (
       <header>
-        <nav className="Header">
+        <nav className="header wrapper">
         <div>
-          <NavLink to="/Home" className="Side-icon"><h1>A<span>RCHIVE</span>!</h1></NavLink>
+          <NavLink to="/Home"><h1>A<span>RCHIVE</span>!</h1></NavLink>
         </div>
-        <div className="SignUpIn">
+        <div className="sign-up-in">
             <button>Log In</button>
             <button>Sign Up</button>
         </div>

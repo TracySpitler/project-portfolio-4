@@ -6,32 +6,32 @@ import { NavLink } from 'react-router-dom'
 class Nav extends Component {
     render() {
         return (
-            <nav className="Nav-Header">
-            <ul className="Links">
+            <nav className="nav-header">
+            <ul className="links wrapper">
                 <li>
                 <NavLink
                     to="/Discover"
-                    activeClassName="Active">Discover</NavLink>
+                    activeClassName="current">Discover</NavLink>
                 </li>
                 <li>
                 <NavLink
                     to="/Library"
-                    activeClassName="Active">Library</NavLink>
+                    activeClassName="current">Library</NavLink>
                 </li>
                 <li>
                 <NavLink
                     to="/Lists"
-                    activeClassName="Active">My Lists</NavLink>
+                    activeClassName="current">My Lists</NavLink>
                 </li>
                 <li>
                 <NavLink
                     to="/History"
-                    activeClassName="Active">History</NavLink>
+                    activeClassName="current">History</NavLink>
                 </li>
                 <li>
                 <NavLink
                     to="/Favorites"
-                    activeClassName="Active">Favorites</NavLink>
+                    activeClassName="current">Favorites</NavLink>
                 </li>
             </ul>
             </nav>

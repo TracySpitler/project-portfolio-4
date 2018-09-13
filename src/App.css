@@ -65,38 +65,14 @@ table {
 /* _base.scss
 ================================ */
 body {
-  text-align: center; }
+  text-align: center;
+  background-color: #222222;
+  color: white; }
 
-/* _nav.scss
-================================ */
-.SignUpIn {
+.wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; }
-
-a, button {
-  color: white;
-  cursor: pointer;
-  text-transform: uppercase; }
-
-a.Active {
-  color: #3FCEF5; }
-
-a:hover {
-  border-bottom: 2px solid #3FCEF5;
-  padding-bottom: .3rem; }
-
-button {
-  width: 6rem;
-  height: 2.5rem;
-  background-color: #262626;
-  border: 2px solid #3FCEF5;
-  margin-left: 1rem; }
-  button:hover {
-    background-color: #3FCEF5; }
+  display: flex; }
 
 /* _typography.scss
 ================================ */
@@ -113,31 +89,65 @@ span {
 
 /* _header.scss
 ================================ */
-.Header {
-  background-color: #262626;
-  color: white;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.header {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 2rem 3rem 0 3rem; }
-  .Header h1 {
+  .header h1 {
     color: #3FCEF5; }
-  .Header span {
+  .header span {
     color: white; }
 
-.Nav-Header {
-  background-color: #262626;
+.nav-header {
   padding: 1rem 0 1rem 3rem; }
 
-.Links {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.links {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start; }
-  .Links li {
+  .links li {
     padding-right: 1rem; }
+
+/* _nav.scss
+================================ */
+.sign-up-in {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+a, button {
+  color: white;
+  cursor: pointer;
+  text-transform: uppercase; }
+
+a.current {
+  color: #3FCEF5; }
+  a.current:hover {
+    border: none; }
+
+a:hover {
+  border-bottom: 2px solid #3FCEF5;
+  padding-bottom: .3rem; }
+
+button {
+  width: 6rem;
+  height: 2.5rem;
+  background-color: #222222;
+  border: 2px solid #3FCEF5;
+  margin-left: 1rem; }
+  button:hover {
+    background-color: #3FCEF5; }
+
+/* _search.scss
+================================ */
+.search {
+  background-color: white;
+  width: 100%;
+  padding: 1rem 1rem 1rem 3rem;
+  color: #C5C6C7;
+  text-align: left;
+  margin-bottom: 3rem; }

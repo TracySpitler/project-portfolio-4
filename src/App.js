@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 
 import './App.css';
-import Nav from './components/Nav'
-import Main from './components/Main'
 import Header from './components/Header'
+import Nav from './components/Nav'
+import Search from './components/Search'
+import Main from './components/Main'
+
 
 //React Router
 import { BrowserRouter as Router } from 'react-router-dom'
@@ -15,8 +17,9 @@ class App extends Component {
             <Router>
                 <div className="App">
                     <Header />
+                    <Nav />
+                    <Search />
                     <div className="container">
-                        <Nav />
                         <Main />
                     </div>
                 </div>

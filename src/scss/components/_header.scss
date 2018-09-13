@@ -1,10 +1,7 @@
 /* _header.scss
 ================================ */
 
-.Header {
-    background-color: $black;
-    color: white;
-    display: flex;
+.header {
     justify-content: space-between;
     padding: 2rem 3rem 0 3rem;
 
@@ -17,13 +14,11 @@
     }
 }
 
-.Nav-Header {
-    background-color: $black;
+.nav-header {
     padding: 1rem 0 1rem 3rem
 }
 
-.Links {
-    display: flex;
+.links {
     justify-content: flex-start;
 
     li {

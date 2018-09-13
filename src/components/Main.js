@@ -13,7 +13,7 @@ class Main extends Component {
 
     render() {
         return (
-            <div className="Main-div">
+            <div className="main-div">
                 <Route path="/Home" component={Home}/>
                 <Route path="/Discover" component={Discover}/>
                 <Route path="/Favorites" component={Favorites}/>
