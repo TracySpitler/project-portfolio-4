@@ -7,7 +7,7 @@ class Header extends Component {
     render() {
         return (
             <div className="">
-                <form className="form" className="search">
+                <form className="search">
                     <input
                     type="text"
                     className="input"

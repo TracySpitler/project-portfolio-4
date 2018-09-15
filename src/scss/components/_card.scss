@@ -1,0 +1,19 @@
+/* _card.scss
+================================ */
+
+.backdrop {
+    width: 20vw;
+    max-width: 300px;
+    min-width: 200px;
+}
+
+.content-scroll {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 2rem;
+
+    li {
+        padding: 1rem;
+    }
+}

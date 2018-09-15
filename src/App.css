@@ -151,3 +151,22 @@ button {
   color: #C5C6C7;
   text-align: left;
   margin-bottom: 3rem; }
+
+/* _card.scss
+================================ */
+.backdrop {
+  width: 20vw;
+  max-width: 300px;
+  min-width: 200px; }
+
+.content-scroll {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 2rem; }
+  .content-scroll li {
+    padding: 1rem; }
