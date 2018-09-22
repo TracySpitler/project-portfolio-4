@@ -10,12 +10,13 @@ import Lists from '../pages/Lists'
 import { Route } from 'react-router-dom'
 
 var api_key = "2cb547f6b21d9fecbf9c3ada7fa19ba3"
-//var imgURL = "http://image.tmdb.org/t/p/original"
+////var imgURL = "http://image.tmdb.org/t/p/original"
 //var multiSearch = "https://api.themoviedb.org/3/search/multi?api_key=2cb547f6b21d9fecbf9c3ada7fa19ba3&language=en-US&query=a&page=1&include_adult=false"
 //var urlMovie = "https://api.themoviedb.org/3/movie/popular?api_key=2cb547f6b21d9fecbf9c3ada7fa19ba3"
 //var urlTV = "https://api.themoviedb.org/3/tv/popular?api_key=2cb547f6b21d9fecbf9c3ada7fa19ba3"
-
+//var redirect = "https://www.themoviedb.org/authenticate/38bdb71891f49996dcd64439955580173462a162"
 var urls = {
+    favorites: "https://www.themoviedb.org/u/esoterix202/favorites",
     movies: {
         nowPlaying: "https://api.themoviedb.org/3/movie/now_playing?api_key=" + api_key,
         upcoming: "https://api.themoviedb.org/3/movie/upcoming?api_key=" + api_key + "&language=en-US&page=1",
