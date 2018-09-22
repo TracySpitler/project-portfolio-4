@@ -9,11 +9,7 @@ class Header extends Component {
       <header>
         <nav className="header wrapper">
         <div>
-          <NavLink to="/Home"><h1>A<span>RCHIVE</span>!</h1></NavLink>
-        </div>
-        <div className="sign-up-in">
-            <button>Log In</button>
-            <button>Sign Up</button>
+          <NavLink to="/Discover"><h1>A<span>RCHIVE</span>!</h1></NavLink>
         </div>
         </nav>
       </header>

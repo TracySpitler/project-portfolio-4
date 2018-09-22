@@ -17,8 +17,10 @@ class App extends Component {
         return (
             <Router>
                 <div className="App">
-                    <Header />
-                    <Nav />
+                    <div className="main-head">
+                        <Header />
+                        <Nav />
+                    </div>
                     <Search />
                     <div className="container">
                         <Main />

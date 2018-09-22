@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
 
-//React Router
-import { NavLink } from 'react-router-dom'
-
 class Header extends Component {
     render() {
         return (

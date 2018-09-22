@@ -15,8 +15,13 @@ class Nav extends Component {
                 </li>
                 <li>
                 <NavLink
-                    to="/Library"
-                    activeClassName="current">Library</NavLink>
+                    to="/Movies"
+                    activeClassName="current">Movies</NavLink>
+                </li>
+                <li>
+                <NavLink
+                    to="/TV"
+                    activeClassName="current">TV</NavLink>
                 </li>
                 <li>
                 <NavLink
@@ -25,14 +30,10 @@ class Nav extends Component {
                 </li>
                 <li>
                 <NavLink
-                    to="/History"
-                    activeClassName="current">History</NavLink>
-                </li>
-                <li>
-                <NavLink
                     to="/Favorites"
                     activeClassName="current">Favorites</NavLink>
                 </li>
+
             </ul>
             </nav>
         );

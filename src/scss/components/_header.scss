@@ -2,8 +2,6 @@
 ================================ */
 
 .header {
-    justify-content: space-between;
-    padding: 2rem 3rem 0 3rem;
 
     h1 {
         color: $blue;
@@ -14,14 +12,16 @@
     }
 }
 
-.nav-header {
-    padding: 1rem 0 1rem 3rem
+.main-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem 1rem 3rem;
 }
 
 .links {
-    justify-content: flex-start;
 
     li {
-        padding-right: 1rem;
+        padding-left: 1rem;
     }
 }
