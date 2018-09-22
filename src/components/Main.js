@@ -141,6 +141,9 @@ class Main extends Component {
         // route components to this main section. Pass this.state to the components that need it
         return (
             <div className="main-div">
+            <Route path='/' render={(props) => (
+                <Discover {...props} movies={this.state.movies} tv={this.state.tv} />
+            )}/>
                 <Route path='/Movies' render={(props) => (
                     <Movies {...props} movies={this.state.movies} hero={this.state.hero} />
                 )}/>
